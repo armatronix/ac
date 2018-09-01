@@ -10,7 +10,7 @@
 #include <Wire.h>
 #include "Adafruit_SHT31.h"
 #include "Adafruit_miniTFTWing.h"
-#include <IRLibAll.h>            // First include the send base
+#include <IRLibAll.h>            // First include the send base...
 
 Adafruit_miniTFTWing ss;
 IRsend My_Sender;
@@ -244,4 +244,3 @@ void refresh(void) {
 void dim(void) {
   ss.setBacklight(0xFFFF);
 }
-
